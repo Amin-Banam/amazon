@@ -1,0 +1,1430 @@
+.main {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+}
+
+.menu1 {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  height: 60px;
+  background-color: #131921;
+}
+.menu1 > figure:nth-of-type(1) {
+  padding-left: 5px;
+  width: 9%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu1 > figure:nth-of-type(1) > a {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: start;
+}
+.menu1 > figure:nth-of-type(1) > a:hover {
+  border: 1px solid white;
+}
+.menu1 > figure:nth-of-type(1) > a > img {
+  width: 100%;
+  height: 100%;
+}
+.menu1 > div:nth-of-type(1) {
+  width: 11%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu1 > div:nth-of-type(1) a {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.menu1 > div:nth-of-type(1) a:hover {
+  border: 1px solid white;
+}
+.menu1 > div:nth-of-type(1) a > div:nth-of-type(1) {
+  width: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: white;
+}
+.menu1 > div:nth-of-type(1) a > div:nth-of-type(1) > span {
+  font-size: 1.2vw;
+}
+.menu1 > div:nth-of-type(1) a > div:nth-of-type(2) {
+  width: 80%;
+  margin: 10px 0;
+}
+.menu1 > div:nth-of-type(1) a > div:nth-of-type(2) > h4 {
+  width: 100%;
+  font-size: 0.93vw;
+  font-weight: 700;
+  color: white;
+}
+.menu1 > div:nth-of-type(1) a > div:nth-of-type(2) > h6 {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.705);
+  font-size: 0.8vw;
+}
+.menu1 .inp_header {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu1 .inp_header > label {
+  width: 95%;
+  height: 65%;
+  display: flex;
+}
+.menu1 .inp_header > label > div:nth-of-type(1) {
+  width: 9%;
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  position: relative;
+}
+.menu1 .inp_header > label > div:nth-of-type(1) > h5 {
+  width: 60%;
+  height: 100%;
+  font-size: 0.8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.menu1 .inp_header > label > div:nth-of-type(1) > span {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  font-size: 0.98vw;
+}
+.menu1 .inp_header > label > div:nth-of-type(1) > span:hover ~ ul {
+  display: block;
+}
+.menu1 .inp_header > label > input {
+  width: 83%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+.menu1 .inp_header > label > div:nth-of-type(2) {
+  background-color: rgb(254, 189, 105);
+  width: 8%;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+}
+.menu1 .inp_header > label > div:nth-of-type(2) > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu1 .inp_header > label > div:nth-of-type(2) > a span {
+  display: flex;
+  font-size: 30px;
+  font-weight: 550;
+}
+.menu1 > div:nth-of-type(3) {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu1 > div:nth-of-type(3) > a {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.menu1 > div:nth-of-type(3) > a:hover {
+  border: 1px solid white;
+}
+.menu1 > div:nth-of-type(3) > a > div:nth-of-type(2) {
+  width: 19%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.menu1 > div:nth-of-type(3) > a > div:nth-of-type(2) > span {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2vw;
+  padding-top: 80%;
+}
+.menu1 > div:nth-of-type(3) > a > div:nth-of-type(1) {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 10px 0;
+}
+.menu1 > div:nth-of-type(3) > a > div:nth-of-type(1) > h4 {
+  width: 100%;
+  font-size: 0.93vw;
+  font-weight: 700;
+  color: white;
+  padding-left: 45%;
+  padding-top: 10%;
+}
+.menu1 > div:nth-of-type(4) {
+  width: 11%;
+  height: 100%;
+  width: 11%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu1 > div:nth-of-type(4) > a {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.menu1 > div:nth-of-type(4) > a:hover {
+  border: 1px solid white;
+}
+.menu1 > div:nth-of-type(4) > a > div:nth-of-type(2) {
+  width: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+}
+.menu1 > div:nth-of-type(4) > a > div:nth-of-type(2) > span {
+  font-size: 1.2vw;
+}
+.menu1 > div:nth-of-type(4) > a > div:nth-of-type(1) {
+  width: 80%;
+  margin: 10px 0;
+}
+.menu1 > div:nth-of-type(4) > a > div:nth-of-type(1) > h4 {
+  width: 100%;
+  font-size: 0.93vw;
+  font-weight: 700;
+  color: white;
+  padding-left: 15%;
+}
+.menu1 > div:nth-of-type(4) > a > div:nth-of-type(1) > h6 {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.705);
+  font-size: 0.8vw;
+  padding-left: 15%;
+}
+.menu1 > div:nth-of-type(5) {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu1 > div:nth-of-type(5) > a {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.menu1 > div:nth-of-type(5) > a:hover {
+  border: 1px solid white;
+}
+.menu1 > div:nth-of-type(5) > a > div:nth-of-type(1) {
+  width: 80%;
+  margin: 10px 0;
+}
+.menu1 > div:nth-of-type(5) > a > div:nth-of-type(1) > h4 {
+  width: 100%;
+  font-size: 0.9vw;
+  font-weight: 700;
+  color: white;
+  padding-left: 15%;
+}
+.menu1 > div:nth-of-type(5) > a > div:nth-of-type(1) > h6 {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.705);
+  font-size: 0.8vw;
+  padding-left: 15%;
+}
+.menu1 > div:nth-of-type(6) {
+  width: 7%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu1 > div:nth-of-type(6) a {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.menu1 > div:nth-of-type(6) a:hover {
+  border: 1px solid white;
+}
+.menu1 > div:nth-of-type(6) a > div:nth-of-type(1) {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.menu1 > div:nth-of-type(6) a > div:nth-of-type(1) > span {
+  font-size: 3vw;
+}
+.menu1 > div:nth-of-type(6) a > div:nth-of-type(2) {
+  width: 50%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.menu1 > div:nth-of-type(6) a > div:nth-of-type(2) > h4 {
+  width: 100%;
+  font-size: 0.93vw;
+  font-weight: 700;
+  color: white;
+}
+
+.menu2 {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(35, 47, 62);
+}
+.menu2 > ul {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu2 > ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu2 > ul li a {
+  height: 90%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+  font-weight: 550;
+  padding: 0 5px;
+}
+.menu2 > ul li a:hover {
+  border: 1px solid white;
+}
+.menu2 div {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.menu2 div li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu2 div li a {
+  width: 100%;
+  height: 90%;
+  padding: 0 5px;
+  color: white;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  font-weight: 550;
+}
+.menu2 div li a:hover {
+  border: 1px solid white;
+}
+
+section:nth-of-type(1) {
+  width: 100%;
+  height: calc(70vh - 100px);
+}
+section:nth-of-type(1) .slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+section:nth-of-type(1) .slider input {
+  display: none;
+}
+section:nth-of-type(1) .slider label:nth-of-type(1) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 44%;
+  border: 2px solid black;
+  background-color: rgba(7, 0, 0, 0.199);
+  cursor: pointer;
+  z-index: 1;
+}
+section:nth-of-type(1) .slider label:nth-of-type(2) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 45.5%;
+  border: 2px solid black;
+  background-color: rgba(7, 0, 0, 0.199);
+  cursor: pointer;
+  z-index: 1;
+}
+section:nth-of-type(1) .slider label:nth-of-type(3) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  border: 2px solid black;
+  background-color: rgba(7, 0, 0, 0.199);
+  cursor: pointer;
+  z-index: 1;
+}
+section:nth-of-type(1) .slider label:nth-of-type(4) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 48.5%;
+  border: 2px solid black;
+  background-color: rgba(7, 0, 0, 0.199);
+  cursor: pointer;
+  z-index: 1;
+}
+section:nth-of-type(1) .slider label:nth-of-type(5) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  border: 2px solid black;
+  background-color: rgba(7, 0, 0, 0.199);
+  cursor: pointer;
+  z-index: 1;
+}
+section:nth-of-type(1) .slider .show {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+}
+section:nth-of-type(1) .slider #img1:checked ~ .show {
+  background-image: url(../img/2.jpg);
+}
+section:nth-of-type(1) .slider #img2:checked ~ .show {
+  background-image: url(../img/3.jpg);
+}
+section:nth-of-type(1) .slider #img3:checked ~ .show {
+  background-image: url(../img/4.jpg);
+}
+section:nth-of-type(1) .slider #img4:checked ~ .show {
+  background-image: url(../img/5.jpg);
+}
+
+section:nth-of-type(2) {
+  height: 275vh;
+  width: 100%;
+  background-color: rgb(227, 230, 230);
+}
+section:nth-of-type(2) .shop1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2%;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) {
+  width: 100%;
+  height: 34%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) {
+  width: 48%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) {
+  width: 100%;
+  height: 34%;
+  display: flex;
+  justify-content: space-between;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > a {
+  height: 10%;
+  width: 20%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(1) > a:hover {
+  text-decoration: underline;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(2) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(2) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(2) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(2) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(2) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1) {
+  width: 48%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(2) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(2) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(2) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(2):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(2) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(2) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(2) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(2):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > a {
+  height: 10%;
+  width: 20%;
+  margin-top: 6%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(3) > a:hover {
+  text-decoration: underline;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) {
+  width: 23%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(1) {
+  width: 100%;
+  height: 33%;
+  background-color: white;
+  padding: 0 15px;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(1) h3 {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(1) > li {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(255, 255, 0);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(1) > li:hover {
+  background-color: rgb(243, 243, 8);
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(1) > li > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9vw;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(2) {
+  width: 95%;
+  height: 63%;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(2) > a {
+  width: 100%;
+  height: 100%;
+}
+section:nth-of-type(2) .shop1 > div:nth-of-type(4) > div:nth-of-type(2) > a > img {
+  width: 100%;
+  height: 100%;
+}
+section:nth-of-type(2) .shop2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(1) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(1) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(1) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(1) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(1) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin-top: 8%;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) {
+  width: 48%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2) {
+  width: 48%;
+  height: 100%;
+  transition: 0.4s;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2) > img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2) h5 {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 0.8vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2):hover {
+  scale: 0.9;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > a {
+  height: 10%;
+  width: 30%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(2) > a:hover {
+  text-decoration: underline;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(3) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(3) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(3) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(3) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(3) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(4) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(4) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(4) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(4) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop2 > div:nth-of-type(4) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(1) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(1) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(1) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(1) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(1) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(2) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(2) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(2) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(2) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(2) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(3) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(3) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(3) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(3) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(3) > a:nth-of-type(2) {
+  height: 10%;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(4) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(4) > h3 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(4) > a:nth-of-type(1) {
+  width: 100%;
+  height: 65%;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(4) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop3 > div:nth-of-type(4) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3%;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(1) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(1) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(1) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(1) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(1) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(2) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(2) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(2) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(2) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(2) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(3) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(3) > h3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(3) > a:nth-of-type(1) {
+  width: 100%;
+  height: 70%;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(3) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(3) > a:nth-of-type(2) {
+  height: 10%;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(4) {
+  width: 23%;
+  height: 400px;
+  padding: 0 15px;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(4) > h3 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  font-size: 1.5vw;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(4) > a:nth-of-type(1) {
+  width: 100%;
+  height: 65%;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(4) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section:nth-of-type(2) .shop4 > div:nth-of-type(4) > a:nth-of-type(2) {
+  height: 10%;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.9vw;
+  color: blue;
+}
+
+footer {
+  width: 100%;
+  height: 80vh;
+  background-color: #131921;
+}
+footer > div:nth-of-type(1) {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > div:nth-of-type(1) > ul {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.568);
+}
+footer > div:nth-of-type(1) > ul > li {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+footer > div:nth-of-type(1) > ul > li > h3 {
+  margin: 4px 0;
+  font-size: 1.2vw;
+  color: white;
+}
+footer > div:nth-of-type(1) > ul > li > a {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  color: rgba(255, 255, 255, 0.644);
+  margin: 4px 0;
+  font-size: 1vw;
+}
+footer > div:nth-of-type(1) > ul > li > a:hover {
+  text-decoration: underline;
+}
+footer > div:nth-of-type(2) {
+  width: 100%;
+  height: 15%;
+}
+footer > div:nth-of-type(2) div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+}
+footer > div:nth-of-type(2) div > img {
+  width: 10%;
+  height: 80%;
+  display: flex;
+  align-content: center;
+  margin-left: 10%;
+  margin-top: -0.5%;
+}
+footer > div:nth-of-type(2) div > code {
+  color: white;
+  margin-left: 19%;
+  margin-top: 1%;
+  display: flex;
+  font-size: 1.5vw;
+}/*# sourceMappingURL=master.css.map */
